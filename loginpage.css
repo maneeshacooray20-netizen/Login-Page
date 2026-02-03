@@ -1,0 +1,81 @@
+body{
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to top, #FFD1D1, #FFD1D1, #FF9494, #FF9494);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: -7em;
+  color: #FFF5E4;
+}
+
+.container {
+  background: rgba(255, 245, 228, 0.5);
+  width: 100%;
+  max-width: 355px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.login {
+  text-align: center;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  font-size: 18px;
+}
+
+input{
+  display: inline-block;
+  margin-top: 8px;
+  width: 100%;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+input:focus{
+  outline: none;
+}
+
+.username, .password{
+  margin: 2em;
+}
+
+.signin, .signup {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.signinbtn {
+  padding: 1em;
+  width: 100px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.signinbtn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
